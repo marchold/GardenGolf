@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@drawable/directions_background">
+  
+  <RelativeLayout
+    android:paddingTop="30dip"
+    android:layout_width="180dip"
+    android:layout_height="wrap_content"
+   android:layout_centerInParent="true">
+  <TextView android:paddingLeft="10dip" android:paddingRight="10dip" android:textSize="19sp" android:layout_centerHorizontal="true" android:text="@string/youscore" android:id="@+id/ScoreText" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+  <TextView android:paddingLeft="10dip" android:paddingRight="10dip" android:textSize="25sp" android:textStyle="bold" android:layout_centerHorizontal="true" android:text="4" android:layout_below="@+id/ScoreText" android:id="@+id/Score" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+  
+  <TextView android:paddingLeft="10dip" android:paddingRight="10dip" android:textSize="19sp" android:layout_centerHorizontal="true" android:paddingTop="10dip" android:text="@string/par" android:layout_below="@+id/Score" android:id="@+id/ParText" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+  <TextView android:paddingLeft="10dip" android:paddingRight="10dip" android:textSize="25sp" android:textStyle="bold" android:layout_centerHorizontal="true" android:text="4" android:layout_below="@+id/ParText" android:id="@+id/Par" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+ 
+  <TextView android:paddingLeft="10dip" android:paddingRight="10dip" android:textSize="19sp" android:text="@string/bestScoreText" android:layout_below="@+id/Par" android:layout_centerHorizontal="true" android:id="@+id/BestScoreText" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+  <TextView android:paddingLeft="10dip" android:paddingRight="10dip" android:textSize="25sp" android:textStyle="bold" android:text="99" android:layout_below="@+id/BestScoreText" android:layout_centerHorizontal="true" android:id="@+id/bestScore" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+  
+  <TextView android:gravity="center_horizontal" android:textSize="19sp" android:layout_centerHorizontal="true" android:paddingTop="30dip" android:text="@string/unlocked" android:id="@+id/unlockedText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/bestScore"></TextView>
+  <ImageView android:paddingTop="3dip" android:layout_centerHorizontal="true"  android:id="@+id/unlockedIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/unlockedText"/> 
+  <TextView android:paddingTop="3dip" android:layout_centerHorizontal="true" android:textSize="24sp"  android:layout_below="@+id/unlockedIcon" android:id="@+id/unlockedTitle" android:layout_width="wrap_content" android:layout_height="wrap_content"/> 
+  
+  <TextView android:gravity="center_horizontal" android:paddingBottom="10dip" android:layout_alignParentBottom="true" android:textSize="23sp"  android:layout_centerHorizontal="true" android:text="@string/TapToContinue" android:id="@+id/TapToContinue" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+ 
+
+
+</RelativeLayout>
+
+</RelativeLayout>

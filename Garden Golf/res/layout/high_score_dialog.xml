@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="280dip"
+  android:layout_height="320dip"
+  android:background="@drawable/citybirds" 
+  >
+  
+  
+<ImageView android:src="@drawable/trophy" android:id="@+id/ImageView01" android:layout_width="wrap_content" android:layout_height="wrap_content"></ImageView>
+
+
+<TextView android:paddingTop="10dip" android:textColor="#FF000000"  android:textSize="24sp" android:id="@+id/gameName" android:layout_below="@+id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@+id/ImageView01"></TextView>
+
+<TextView android:textSize="17sp" android:textColor="#FF000000" android:text="@string/yourName" android:layout_below="@+id/ImageView01" android:id="@+id/TextView02" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+
+<EditText android:singleLine="true" android:id="@+id/userHandle" android:layout_below="@+id/TextView02" android:text="@+id/EditText01" android:layout_width="fill_parent" android:layout_height="wrap_content"></EditText>
+
+<TextView android:textColor="#FF000000"  android:textSize="17sp" android:text="@string/youHigh" android:id="@+id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@+id/ImageView01"></TextView>
+
+
+
+<TextView android:textColor="#FF000000" android:id="@+id/score" android:layout_above="@+id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@+id/ImageView01"></TextView><Button android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="@string/ok" android:id="@+id/OkButton"></Button>
+
+
+
+
+
+
+
+</RelativeLayout>

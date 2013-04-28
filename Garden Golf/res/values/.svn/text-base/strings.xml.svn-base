@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gameModeDiagTitle">Game Mode</string>
+    <string name="choseMode">Choose game mode</string>
+    <string name="hello">Hello World, MiniGolfActivity!</string>
+    <string name="app_name">Garden Golf</string>
+<string name="Amelia">Lady Lindy</string>
+<string name="Carol">Ma Gable</string>
+<string name="billie">Lady Day</string>
+<string name="charlie">The Tramp</string>
+<string name="elephant">The Elephant Shalazzar</string>
+<string name="fireeater">The Fire Eater Raziel</string>
+<string name="ginstill">Prohibition GinStill</string>
+<string name="gingerandfred">Daddy Long Leggs and Feathers</string>
+<string name="hottub">Invention of the Hottub</string>
+<string name="shirley">autumn leaves</string>
+<string name="lewis">Sweet Papa Dip</string>
+<string name="wizardofoz">Brick Road</string>
+<string name="sailboat">Vintage Steamer</string>
+<string name="bicycle">Vintage Bicycle</string>
+
+<string name="goldfish">Gold Fish Pond</string>
+<string name="tiger">Tiger and Dragonfly</string>
+<string name="modelt">Invention of the Model T</string>
+<string name="jester">The Jesters Maze</string>
+<string name="Intro">In the 1920s and 30\'s minigolf became the fad favorite of movie stars from New York to Hollywood. Where did they play? On their roofs, of course! They called it Garden Golf. Courses were built in rooftop gardens all across the land. From these gala gardens, filled with rare flowers, exotic birds and one-of-a-kind statuary, minigolf as we think of it today, was born.</string>
+<string name="whatsonroof">Tap Screen To Play</string>
+<string name="TapToContinue">Tap Screen To Continue</string>
+<string name="par">Par</string>
+<string name="unlocked">You have unlocked a new level!</string>
+<string name="betterluck">Failed to unlock level.</string>
+<string-array name="sillynames">
+	    <item>Robyn Banks</item>
+	    <item>Emerald Stone</item>
+	    <item>Teresa Green</item>
+	    <item>Nora Bone</item>
+	    <item>Dee Zaster</item>
+	    <item>Rosie Peach</item>
+	    <item>Ima Kettle</item>
+	    <item>Rosemary Border</item>
+	    <item>Hazel Nutt</item>
+	    <item>Daisy Chain</item>
+	    <item>Barbara Dwyer</item>
+	    <item>Pearl E. Whites</item>
+	    <item>Penny Wise</item>
+	    <item>Annette Kirton</item>
+	    <item>Shada Lear*</item>
+	    <item>Pat May Weiner</item>
+	    <item>Anne Ball</item>
+	    <item>Justin Case</item>
+	    <item>Dan Druff</item>
+	    <item>Seymour Legg</item>
+	    <item>Sean Head</item>
+	    <item>Tim Burr</item>
+	    <item>Ash Hull</item>
+	    <item>Phil Hole</item>
+	    <item>Woody Bush</item>
+	    <item>Owen Money</item>
+	    <item>Dwayne Pipe</item>
+	    <item>Norman Knight</item>
+	    <item>Doug Graves</item>
+	    <item>Justin Tune</item>
+	    <item>Lowden Clear</item>
+	    <item>Maurice Minor</item>
+	    <item>Bernd Onions</item>
+	    <item>Artie Choke</item>
+	    <item>Rick O\'Shea</item>
+	    <item>Ted E. Baer</item>
+	    <item>Jay Bird</item>
+	    <item>Sandy Shaw</item>
+	    <item>Rusty Nails</item>
+	    <item>Robin Plunder</item>
+	    <item>Terri Bull</item>
+	    <item>Shandy Lear</item>
+	    <item>Chris Cross</item>
+	    <item>Jo King</item>
+	    <item>NoSmo King</item>
+	    <item>Lorry Truck</item>
+</string-array>
+<string name="youscore">Score</string>
+<string name="bestScoreText">Best Score Ever</string>
+<string name="thisBestScore">Best: </string>
+<string name="thisAvgScore">Average: </string>
+<string name="upToBestScore">Best: </string>
+<string name="upToAvgScore">Average: </string>
+
+<string name="youHigh">You got the high score on:</string>
+<string name="yourName">Enter the name which will be published on our web site with your score</string>
+<string name="ok">OK</string>
+<string name="thisBestTitle">This Hole</string>
+<string name="allBestTitle">Up to this hole</string>
+<string name="youWin">Congratulations! You have won the game.</string>
+<string name="sendfeedback">Send Feedback</string>
+<string name="sendfeedbacksum">Contact developer to report a problem, or suggest an improvement.</string>
+<string name="writereview">Write A Review</string>
+<string name="writereviewsum">If you like this app, let others know.</string>
+<string name="Feedback">Feedback</string>
+<string name="Review">Review</string>
+<string name="handle">High Score Handle</string>
+<string name="handlesum">Your high scores name</string>
+<string name="choosemodesum">Pick between different controller modes</string>
+<string name="settings">Settings</string>
+<string name="buyFull">Buy full version</string>
+<string name="buyWithMenu">To play all 19 holes and remove the adds buy the full version for only $0.99. Press the MENU button and then select Buy full version.</string>
+<string name="charleyHills">The Pyramid</string>
+<string name="Instructions">Instructions</string>
+<string name="welcome">Welcome to Garden Golf.\n The object of the game is to get the ball down the hole in the least number of shots.\n\ntap here for more</string>
+<string name="controlermodes">There are 2 different controller modes you can use:\n Fling and Tap\nUse the MENU button to switch between them\n\n tap here for more</string>
+<string name="controlfling">With fling controls, you move you finger across the screen in the direction you want the ball to go. The faster you move your finger the harder you hit the ball.\n\ntap here for more</string>
+<string name="controltap">With tap controls. You first put your finger down on the screen, a red arrow appears to indicate the direction the ball will go. When you lift your finger off the screen a power bar will start to grow, tap the screen again to hit the ball as hard as the power bar is tall.</string>
+<string name="aimControl">Tap to aim controls</string>
+<string name="flingControl">Flick your finger controls</string>
+<string name="nowyoutry">Now you can give it a try.</string>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.catglo.gardengolf18"
+      android:versionCode="11" android:versionName="1.11">
+    <application android:icon="@drawable/icon" android:label="@string/app_name" android:theme="@android:style/Theme.NoTitleBar.Fullscreen" android:allowClearUserData="true" android:debuggable="false">
+        <activity android:label="@string/app_name" android:name="GreenList" android:launchMode="standard">
+            
+        </activity>
+
+    <activity android:name="Carol" android:screenOrientation="portrait" android:launchMode="singleTask"></activity>
+<activity android:name="Aerheart" android:screenOrientation="portrait"></activity>
+<activity android:name="Bicycle" android:screenOrientation="portrait"></activity>
+<activity android:name="BillyHoliday" android:screenOrientation="portrait"></activity>
+<activity android:name="Charley" android:screenOrientation="portrait"></activity>
+<activity android:name="Elephant" android:screenOrientation="portrait"></activity>
+<activity android:name="FireEater" android:screenOrientation="portrait"></activity>
+<activity android:name="FishPond" android:screenOrientation="portrait"></activity>
+<activity android:name="GingerAndFred" android:screenOrientation="portrait"></activity>
+<activity android:name="HotTub" android:screenOrientation="portrait"></activity>
+<activity android:name="Jester" android:screenOrientation="portrait"></activity>
+<activity android:name="LewisArmstrong" android:screenOrientation="portrait"></activity>
+<activity android:name="ModelT" android:screenOrientation="portrait"></activity>
+<activity android:name="Shirly" android:screenOrientation="portrait"></activity>
+<activity android:name="Steamer" android:screenOrientation="portrait"></activity>
+<activity android:name="Tiger" android:screenOrientation="portrait"></activity>
+<activity android:name="WizardOfOz" android:screenOrientation="portrait"></activity>
+<activity android:name="GinStill" android:screenOrientation="portrait"></activity>
+<activity android:label="@string/app_name"  android:name="GardenGolf" android:screenOrientation="portrait" android:launchMode="standard"></activity>
+<activity android:label="@string/app_name"  android:name="Intro" android:screenOrientation="portrait" android:launchMode="standard">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+</activity>
+<activity android:name="CharleyHills" android:screenOrientation="portrait"></activity>
+<activity android:name="GolfSettings"></activity>
+<!-- The application's publisher ID assigned by AdMob -->
+<meta-data android:value="a14ca682163a0bf" android:name="ADMOB_PUBLISHER_ID"
+/>
+
+<activity android:name="Instructions" android:screenOrientation="portrait"></activity>
+</application>
+    <uses-sdk android:minSdkVersion="3" />
+
+
+<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+</manifest> 

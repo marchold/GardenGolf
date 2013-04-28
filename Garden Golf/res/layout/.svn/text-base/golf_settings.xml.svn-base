@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:background="@drawable/citybirds" 
+  >
+  
+  
+    <com.catglo.gardengolf18.EmailMePreference
+			android:key="SendFeedback" android:title="@string/sendfeedback"
+			android:summary="@string/sendfeedbacksum"
+			android:dialogTitle="@string/Feedback" />
+			
+	<com.catglo.gardengolf18.ReviewMePreference
+			android:key="ReviewApp" android:title="@string/writereview"
+			android:summary="@string/writereviewsum"
+			android:dialogTitle="@string/Review" />			
+		
+  	
+	<EditTextPreference android:key="userName" android:title="@string/handle" android:summary="@string/handlesum"></EditTextPreference>
+	
+  	<ListPreference android:key="gameMode" 
+	                android:title="@string/choseMode" 
+	                android:dialogIcon="@drawable/icon" 
+	                android:entryValues="@array/GameModeValues" 
+	                android:entries="@array/GameMode"
+	                android:defaultValue="fling"
+	                android:dialogTitle="@string/gameModeDiagTitle"
+	                android:summary="@string/choosemodesum"></ListPreference>
+
+
+</PreferenceScreen>
